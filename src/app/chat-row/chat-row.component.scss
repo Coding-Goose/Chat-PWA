@@ -1,0 +1,51 @@
+@import "../../styles";
+
+.avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.chat-row {
+  border-bottom: 1px solid $color-secondary;
+  background-color: $color-primary;
+  color: $color-secondary;
+  padding: .5rem;
+  display: flex;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.last-message {
+  color: $color-white;
+  font-size: .8rem;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 100;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.new-message-count {
+  background-color: $color-secondary;
+  color: $color-primary;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
